@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/POS-Github-Pages/sw.js', { scope: '/POS-Github-Pages/' })})}
